@@ -1,7 +1,7 @@
 body {
-    background: #101010;
-    font-family: 'Inter', sans-serif;
-    color: #FFFFFF;
+    background: #252525;
+    font-family: 'Roboto', sans-serif;
+    color: #ffdddd;
     padding-top: 6em;
   }
   
@@ -48,6 +48,11 @@ body {
   a.snapchat
   {
   color: #e0e264;
+  }
+
+  p.cursive
+  {
+    font-family: 'Caveat', sans-serif;
   }
 
   
