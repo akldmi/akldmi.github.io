@@ -17,7 +17,7 @@ body {
   line-height: 46px;
   }
   
-  .profile, .contact {
+  .profile {
   padding-bottom: 1em;
   font-style: normal;
   font-weight: 300;
@@ -34,22 +34,12 @@ body {
   {
   color: #ce8106;
   }
+
+  a.wsu
+  {
+  color: #a73a3a;
+  }
   
-  a.linkedin
-  {
-  color: #0976b4;
-  }
-
-  a.twitter
-  {
-  color: #4092c2;
-  }
-
-  a.snapchat
-  {
-  color: #e0e264;
-  }
-
   p.cursive
   {
     font-family: 'Caveat', sans-serif;
