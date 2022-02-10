@@ -1,7 +1,7 @@
 body {
-    background: #252525;
+    background: #000000;
     font-family: 'Roboto', sans-serif;
-    color: #ffdddd;
+    color: #ffffff;
     padding-top: 6em;
   }
   
@@ -43,7 +43,8 @@ body {
   p.cursive
   {
     font-family: 'Caveat', sans-serif;
-  }
+    font-size: 44px;
+  } 
 
   
   
