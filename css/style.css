@@ -1,6 +1,6 @@
 body {
     background: #000000;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inconsolata', sans-serif;
     color: #ffffff;
     padding-top: 6em;
   }
@@ -21,7 +21,7 @@ body {
   padding-bottom: 1em;
   font-style: normal;
   font-weight: 300;
-  font-size: 24px;
+  font-size: 34px;
   line-height: 34px;
   }
   
@@ -39,12 +39,21 @@ body {
   {
   color: #a73a3a;
   }
-  
-  p.cursive
-  {
-    font-family: 'Caveat', sans-serif;
-    font-size: 44px;
-  } 
+
+  b.terminal {
+    animation: terminalPrompt;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+  }
+
+@keyframes terminalPrompt {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
 
   
   
